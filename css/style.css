@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 480px;
+    background-color: blue;
+}
+
+.header-top{
+    background-color: aqua;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.top-yellow{
+    background-color: goldenrod ;
+    line-height: 35px;
+    width: 70%;
+}
+
+.top-logo, .top-login{
+    width: 19%;
+    border: 2px dotted black;
+    display: inline-block;
+}
+.top-link{
+    width: 60%;
+    border: 2px dotted black;
+    display: inline-block;
+}
+
+
+
+header .top-img{
+    width: 50%;
+    height: 300px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 50px;
+}
