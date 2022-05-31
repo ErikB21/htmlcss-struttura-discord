@@ -7,31 +7,39 @@
 /*stilizzazione header*/
 
 header{
-    height: 480px;
+    height: 580px;
     background-color: blue;
 }
 
 .header-top{
     background-color: aqua;
-    height: 70px;
-    padding: 20px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
 }
+
 .top-yellow{
-    height: 40px;
+    height: 45px;
     line-height: 35px;
     width: 70%;
     display: flex;
 }
 
 .top-logo, .top-login{
-    width: 25%;
+    width: 20%;
     height: 40px;
     display: inline-block;
     border: 1px dotted black;
     background-color: goldenrod;
 }
+
+
+.top-login{
+    text-align: right;
+}
+
 .top-link{
     height: 40px;
     text-align: center;
@@ -39,19 +47,30 @@ header{
     border: 1px dotted black;
     flex-grow: 1;
     background-color: goldenrod;
+    align-items: center;
 }
 
-.top-login{
-    text-align: right;
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul li{
+    padding: 0 5px;
 }
 
 
-header .top-img{
+.top-img{
+    padding: 45px 0;
+}
+
+
+header .wallpaper{
     width: 50%;
-    height: 300px;
+    height: 400px;
     background-color: pink;
     margin: 0 auto;
-    margin-top: 50px;
     border: 1px dotted black;
 }
 
@@ -63,17 +82,18 @@ main{
 
 .gray{
     background-color: gray;
-    padding: 30px 20px;
+    padding: 50px;
 }
 
 .white{
-    padding: 30px 20px;
+    padding: 50px;
 }
 
 .main-top{
-    width: 70%;
+    max-width: 1200px;
     display: flex;
-    height: 300px;
+    justify-content: space-between;
+    height: 400px;
     margin: 0 auto;
     border: 1px dotted black; 
 }
@@ -90,7 +110,7 @@ main{
 
 .main-bottom{
     width: 70%;
-    height: 400px;
+    height: 1000px;
     background-color: green;
     margin: 0 auto;
     border: 1px dotted black;
@@ -100,30 +120,28 @@ main{
 
 footer{
     background-color: black;
-    height: 300px;
+    height: 600px;
     padding: 10px 0px;
 }
 
 .top-footer{
-    width: 70%;
+    width: 1200px;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     margin-bottom: 20px;
-
 }
 
 .footer-text{
-    height: 200px;
-    width: 33%;
+    height: 300px;
+    width: 30%;
     background-color: salmon;
     border: 1px dotted white;
-
 }
 
 .footer-link{
-    height: 200px;
-    width: 16%;
+    height: 300px;
+    width: calc(70% / 4);
     background-color: aqua;
     border: 1px dotted white;
 }
